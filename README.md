@@ -2,8 +2,49 @@
 
 A modern blog template built with SvelteKit and other cutting-edge technologies.
 
+---
 
-## Features
+## SvelteKit Capabilities
+
+[SvelteKit](https://kit.svelte.dev/) is a powerful framework for building web applications. Here are some of its standout capabilities:
+
+- **Hydration**: SvelteKit provides a seamless hydration process, allowing you to build server-rendered pages that "hydrate" into single-page apps.
+
+- **Adapters**: With a variety of adapters, SvelteKit can deploy to different environments, including static sites, Node.js, and even serverless platforms.
+
+- **Server-side Rendering (SSR)**: SvelteKit supports SSR out of the box, ensuring faster load times and improved SEO.
+
+- **Routing**: Built-in file-based routing system makes it easy to structure your application and define page transitions.
+
+- **End-to-End**: SvelteKit is an end-to-end solution, handling everything from routing to server-side rendering, making it easier to set up and deploy applications.
+
+- **Integrated Development Environment**: Comes with a built-in development server, making it easy to develop and preview your application in real-time.
+
+- **Extensibility**: Easily integrate with other tools and libraries in the Svelte ecosystem.
+
+## Advantages of a Blog Engine that Parses Markdown Files
+
+Using markdown files as the content source for a blog engine offers several advantages:
+
+- **Simplicity**: Markdown is easy to write and read. It eliminates the distractions of formatting toolbars and allows authors to focus on content.
+
+- **Version Control**: Storing blog posts as markdown files in a repository like GitHub allows for version control. This means you can track changes over time, collaborate with others, and even revert to previous versions if needed.
+
+- **Flexibility**: Markdown can be easily converted to various formats like HTML, PDF, or even Word documents. This makes it versatile for various publishing needs.
+
+- **Performance**: Parsing markdown files is generally faster than querying a database. This can lead to quicker page load times, enhancing the user experience.
+
+- **Security**: With markdown files, there's less risk compared to databases which can be prone to SQL injection attacks.
+
+- **Portability**: Markdown files are plain text, making them lightweight and easy to backup, transfer, or migrate.
+
+- **Integration with Static Site Generators**: Many modern static site generators support markdown out of the box, allowing for fast, secure, and scalable blogs or websites.
+
+Incorporating a blog engine that parses markdown files, especially in a powerful framework like SvelteKit, combines the best of modern web development practices with the simplicity and versatility of markdown.
+
+---
+
+## Feature Set and Third Parties
 
 - Built with [SvelteKit](https://kit.svelte.dev/)
 - Styling with [TailwindCSS](https://tailwindcss.com/)
