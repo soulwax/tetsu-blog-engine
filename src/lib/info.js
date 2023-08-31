@@ -6,8 +6,9 @@
 export const website = 'https://sveltekit-blog-template.vercel.app'
 
 export const firstName = ''
-export const lastName = 'Kling'
+export const lastName = 'soulwax'
 export const name = firstName && lastName ? `${firstName} ${lastName}` : firstName || lastName
+
 
 // Used for the landing page & footer of posts
 export const avatar = 'https://100k-faces.glitch.me/random-image'
