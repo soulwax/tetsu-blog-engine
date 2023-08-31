@@ -6,8 +6,10 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
     "skipLibCheck": true,
     "sourceMap": true,
+    "ignoreDeprecations": "5.0",
     "strict": true
   }
 }
